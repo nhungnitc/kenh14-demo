@@ -1,0 +1,307 @@
+.main{
+    display: flex;
+    position: relative;
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+.div-black{
+    height: 25px;
+    background-color: black;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    /* justify-content: space-around; */
+}
+.div-link-black{
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 150px;
+}
+.link-black{
+    /* width: 100px; */
+    height: 19px;
+    color: white;
+    text-decoration: none;
+    background-image: url("./icon/1.png");
+    font-size: 13px;
+    background-size: auto 25px;
+    padding-top: 6px;
+    padding-left: 20px;
+    margin-left: 20px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.div-search-black{
+    height: 25px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 500px;
+}
+#boxSearch{
+    height: 20px;
+    background-color: black;
+    color: white;
+    border-right: black;
+    border-bottom: black;
+    border-top: black;
+    justify-content: center;
+    align-items: center;
+}
+.div-yellow{
+    height: 70px;
+    background-color: #f8a42c;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+}
+#img-kenh14{
+    margin-left: 160px;
+}
+.tag{
+    width: 550px;
+    margin-left: 60px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content:space-around;
+}
+.tag-1{
+    height: 30px;
+    color: white;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: large;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+    border-style: solid;
+    border-radius: 100%;
+    border-width: 1px;
+    border-color: white;
+    -webkit-border-radius: 100px;
+}
+.div-red{
+    background-color: #a80c1c;
+    height: 40px;
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    /* align-items: center; */
+}
+.btn-red{
+    background-color: #a80c1c;
+    border: none;
+    color: white;
+    font-size: large;
+    text-decoration: none;
+    display: inline-block;
+    padding-left: 7px;
+    padding-right: 7px;
+    padding-top: 10px;
+    /* padding: 7px; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 95%;
+}
+.btn-red:hover{
+    background-color: #8c0b12;
+}
+.div-0{
+    /* height: 2000px; */
+    display: flex;
+    position: relative;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.div-01{
+    width: 350px;
+    /* background-color: #f8a42c; */
+    display: flex;
+    position: relative;
+}
+.div-1{
+    width: 720px;
+    height: 800px;
+    /* margin-left: 160px; */
+    /* background-color: aqua; */
+    display: flex;
+    flex-direction: column;
+}
+.div-2{
+    width: 720px;
+    height: 480px;
+    /* background-color: #f8a42c; */
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: row;
+}
+.div-3{
+    width: 720px;
+    height: 250px;
+    /* background-color: #8c0b12; */
+    display: flex;
+    /* position: relative; */
+    flex-direction: column;
+    flex-wrap: wrap;
+    /* justify-content: center;
+    align-items: center; */
+    overflow: hidden;
+}
+.div-4{
+    width: 470px;
+    height: 470px;
+    /* background-color: aliceblue; */
+    display: flex;
+    flex-direction: column;
+}
+
+.div-5{
+    width: 200px;
+    height: 470px;
+    /* background-color: #f0ecec; */
+    margin-left: 25px;
+    display: flex;
+    flex-direction: column;
+}
+#txt-1{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 150%;
+}
+#txt-1:hover{
+    color: #585454;
+}
+#txt-2{
+    color: #585454;
+    font-size: 90%;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-top: 15px;
+}
+#txt-3{
+    color: black;
+    text-decoration: none;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 117%;
+    padding: 10px;
+}
+#txt-3:hover{
+    color: #585454;
+}
+.div-6{
+    width: 250px;
+    height: 250px;
+    /* background-color: #f0ecec; */
+    margin-right: 20px;
+    transition: 0.6s;
+}
+.list{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-start;
+    padding-left: 0px;
+    /* background-color: #585454; */
+}
+.list{
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: flex-start;
+    padding-left: 0px;
+    /* background-color: #585454; */
+}
+.txt-4{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+    font-weight: bold;
+}
+.txt-4:hover{
+    color: #4b4949;
+}
+#img-qc{
+    margin: 25px;
+    /* margin-top: 25px; */
+}
+.navigation{
+    position:absolute;
+    bottom: 10px;
+    left: 40%;
+    transform: translateX(-50%);
+    display: flex;
+}
+.bar{
+    width: 10px;
+    height: 10px;
+    background-color: #d0cccc;
+    border-radius: 30px;
+    margin: 10px;
+    cursor: pointer;
+}
+.bar:hover{
+    background-color: #ff542c;
+    /* transition: 0.6s; */
+}
+input[name="bottom"]{
+    position:absolute;
+    visibility: hidden;
+}
+#bottom-1:checked ~ .d1{
+    margin-left: 0;
+}
+#bottom-2:checked ~ .d1{
+    margin-left: -540px;
+}
+#bottom-3:checked ~ .d1{
+    margin-left: -1080px;
+}
+#bottom-4:checked ~ .d1{
+    margin-left: -1150px;
+}
+.bar-1{
+    display: flex;
+    width: 40px;
+    height: 100px;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-size: 50px;
+    color: white;
+    background-color: #ff532c9b;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+.bar-1:hover{
+    background-color: #ff542c;
+    /* transition: 0.6s; */
+}
+.navigation-1{
+    width: 720px;
+    height: 250px;
+    display: flex;
+    position:absolute;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: 45px;
+    /* display: flex;
+    justify-content: center;
+    position:absolute;
+    transform: translateX(-50%);
+    display: flex; */
+}
